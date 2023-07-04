@@ -1,4 +1,4 @@
 ﻿# Mqtt-Stresser
-Throughpout Stresser- For Stress Testing publish count
+Throughpout LoadTester- For Stress Testing publish count
 
-Concurrent Stresser- For Stress Testing No Of Clients connected
+Concurrent Connection LoadTester- For Stress Testing No Of Clients connected
