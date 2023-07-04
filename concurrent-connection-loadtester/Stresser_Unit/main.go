@@ -134,9 +134,9 @@ func main() {
 		log.Fatal().Msg("Configuration Error: Max Clients  not available")
 	}
 	token, timeStart := getTokenValue(tokenUrl)
+	token = token * maxClients
 	log.Print(token)
 	log.Print(timeStart)
-	token = token * maxClients
 	time.Sleep(time.Duration(timeStart) * time.Second)
 	log.Print("starting stress")
 	loops := token + maxClients
