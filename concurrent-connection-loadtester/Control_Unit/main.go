@@ -35,7 +35,7 @@ func tokenHandler(e echo.Context) error {
 	response := responseHttp{ClientStart: clientStart, TimeStart: timeStart}
 	e.JSON(http.StatusOK, response)
 	atomic.AddUint64(&timeStart, 10)
-	atomic.AddUint64(&clientStart, 1000)
+	atomic.AddUint64(&clientStart, 1)
 	return nil
 }
 

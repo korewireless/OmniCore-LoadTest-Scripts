@@ -3,4 +3,6 @@
 2. Create Docker images from the dockerfiles
 3. Run a single instance of Control Unit.
 4. Run multiple pods of Stresser Unit as needed.Change config json and update the corresponding url for control unit , max clients per Stresser unit pod and the broker url.
-5. Each stresser unit takes in a unique time frame from control unit and starts connected to the mqtt broker.
+5. Each stresser unit takes in a unique time frame and device start id from control unit and starts connecting to the mqtt broker with its specified timeframe and deviceid range.
+
+Note: Control Unit Has an internal counter which gets reset only when its restarted.

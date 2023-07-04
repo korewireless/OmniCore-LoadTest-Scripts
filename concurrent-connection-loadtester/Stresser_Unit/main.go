@@ -138,7 +138,7 @@ func main() {
 	log.Print(timeStart)
 	time.Sleep(time.Duration(timeStart) * time.Second)
 	log.Print("starting stress")
-	loops := token + maxClients
+	loops := (token*maxClients) + maxClients
 	log.Print(loops)
 	disconnectChannel := make(chan struct{}, maxClients)
 
