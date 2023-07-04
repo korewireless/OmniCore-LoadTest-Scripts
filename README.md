@@ -1,4 +1,4 @@
-﻿# Mqtt-Stresser
+﻿# Omnicore-Mqtt-LoadTester
 ## Throughpout LoadTester- For Stress Testing publish count
 ![Throughpout](throughpout.png "Throughpout")
 https://github.com/korewireless/Mqtt-Stresser/blob/main/throughpout-loadtester/README.md
