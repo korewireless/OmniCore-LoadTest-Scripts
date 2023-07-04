@@ -1,0 +1,5 @@
+{
+    "ENV_MAX_CLIENTS": 1000,
+    "ENV_MQTT_URL": "ssl://omnicore.mqtt.korewireless.com:8883",
+    "ENV_TOKEN_URL": "http://127.0.0.1:8099/getToken"
+}
